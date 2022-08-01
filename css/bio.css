@@ -11,7 +11,7 @@ html {
 }
 
 body {
-  background: rgb(230, 230, 230);
+  background: rgb(245, 245, 245);
   min-height: 100%;
 }
 
@@ -111,11 +111,10 @@ a {
   font-size: 18px;
   font-weight: 300;
   padding-bottom: 32px;
-  letter-spacing: 2pt;
 }
 
 .container-bio__text {
-  font-weight: 200;
+  font-weight: 300;
   font-size: 16px;
   margin: 0;
   padding: 12px 0;
@@ -135,7 +134,7 @@ a {
 .container-footer {
   min-height: 100px;
   font-family: "Montserrat";
-  color: rgb(250, 250, 250);
+  color:whitesmoke;
   display: flex;
   flex-direction: row;
   justify-content: space-around;
@@ -143,7 +142,7 @@ a {
 }
 
 .container-footer a{
-  color: rgb(250, 250, 250);
+  color:whitesmoke;
 }
 
 .container-footer .footer__name, .footer__redes {
