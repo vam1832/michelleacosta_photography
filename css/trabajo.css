@@ -1,0 +1,72 @@
+.description__forests {
+  letter-spacing: 1pt;
+  text-transform: none;
+}
+
+.container__section-forests {
+  padding-left: 100px;
+  padding-top: 70px;
+  padding-bottom: 50px;
+  margin: auto;
+  display: flex;
+  max-width: 1550px;
+  min-width: 10px;
+  height: 100%;
+}
+
+.container__section-position-forests {
+  display: flex;
+  gap: 1rem;
+  align-items: stretch;
+  flex-wrap: wrap;
+  column-gap: 35.2px;
+  row-gap: 30px;
+}
+
+.position-forests {
+  margin-top: 32px;
+  display: flex;
+  align-items: stretch;
+  flex-wrap: wrap;
+  column-gap: 10px;
+  row-gap: 12px;
+}
+
+.forests__card {
+  padding-bottom: 20px;
+  padding-left: 20px;
+}
+
+.imagen__forests {
+  height: 338px;
+  width: 538px;
+  object-fit: cover;
+}
+
+@media (max-width: 585px) {
+  .container__section-forests {
+    padding-left: 20px;
+    padding-top: 70px;
+    padding-bottom: 50px;
+    margin: auto;
+    display: flex;
+    max-width: 1550px;
+    min-width: 10px;
+    height: 100%;
+    width: auto;
+  }
+
+  .imagen__forests {
+    /*height: 338px;
+    width: 538px;
+    object-fit: cover;*/
+    height: 178px;
+    width: 350px;
+    object-fit: cover;
+  }
+
+  .forests__card {
+    padding-bottom: 0px;
+    padding-left: 0px;
+  }
+}

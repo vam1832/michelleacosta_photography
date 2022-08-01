@@ -1,0 +1,78 @@
+.description__paisaje {
+  letter-spacing: 1pt;
+  text-transform: none;
+}
+
+.container__section-paisaje {
+  /*padding-left: 100px;*/
+  padding-top: 70px;
+  padding-bottom: 50px;
+  /*margin: auto;*/
+  display: flex;
+  /*max-width: 1550px;*/
+  min-width: 10px;
+  height: 100%;
+  /*margin-left: 20%;*/
+}
+
+h1,
+p {
+  text-align: center;
+  margin-left: 5%;
+}
+.container__section-position-paisaje {
+  display: flex;
+  gap: 1rem;
+  align-items: stretch;
+  flex-wrap: wrap;
+  column-gap: 35.2px;
+  row-gap: 30px;
+}
+
+.position-paisaje {
+  margin-top: 32px;
+  display: flex;
+  align-items: stretch;
+  flex-wrap: wrap;
+  column-gap: 10px;
+  row-gap: 12px;
+}
+
+.paisaje__card {
+  padding-bottom: 20px;
+  padding-left: 20px;
+  max-width: 1560px;
+  margin: auto;
+}
+
+.imagen__paisaje {
+  height: 338px;
+  width: 538px;
+  object-fit: cover;
+}
+
+@media (max-width: 585px) {
+  .container__section-paisaje {
+    padding-left: 20px;
+    padding-top: 70px;
+    padding-bottom: 50px;
+    margin: auto;
+    display: flex;
+    max-width: 1550px;
+    min-width: 10px;
+    height: 100%;
+    width: auto;
+  }
+  .imagen__paisaje {
+    /*height: 338px;
+    width: 538px;
+    object-fit: cover;*/
+    height: 178px;
+    width: 350px;
+    object-fit: cover;
+  }
+  .paisaje__card {
+    padding-bottom: 0px;
+    padding-left: 0px;
+  }
+}
