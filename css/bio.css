@@ -31,7 +31,9 @@ body {
 }
 
 .navbar a {
-  padding: 0 64px;
+  padding: 0 24px;
+  text-shadow: 1px -1px 1px rgb(153, 153, 153);
+  font-size: 14px;
 }
 
 a{
@@ -126,18 +128,20 @@ strong{
 }
 
 .social-media{
-  padding-top: 16px;
+  height: fit-content;
+  min-width: 100%;
+  padding-left: 12px;
+
   display: flex;
   flex-direction: row;
-  justify-content: center;
+  justify-content: flex-start;
   align-items: center;
   gap: 12px;
-  
 }
 
 .logo{
   margin: 12px auto;
-  max-height: 32px;
+  max-height: 24px;
 }
 
 .section_footer {
