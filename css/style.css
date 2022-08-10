@@ -19,6 +19,7 @@ html {
 body {
   background: rgb(240, 239, 235);
   min-height: 100%;
+  text-rendering: optimizeLegibility;
 }
 
 
@@ -65,11 +66,33 @@ a{
   min-width: 90vw;
   min-height: 100vh;
 
-  animation: banner 20s infinite;
+  animation: banner 15s ease-in-out infinite;
   animation-direction: alternate;
   background-size: cover;
   background-position: center;
-  background-repeat: initial;
+  background-repeat: no-repeat;
+
+  -webkit-animation: banner 15s ease-in-out infinite;
+  -webkit-animation-direction: alternate;
+
+  -moz-animation: banner 15s ease-in-out infinite;
+  -moz-animation-direction: alternate;
+  
+  -o-animation: banner 15s ease-in-out infinite;
+  -o-animation-direction: alternate;
+
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  animation-delay: 0;
+
+  -webkit-animation-delay: 0;
+  -moz-animation-delay: 0;
+  -o-animation-delay: 0;
+
+
+  -o-background-size: cover;
+  -moz-background-size: cover;
+  -webkit-background-size: cover;
 }
 
 
@@ -77,14 +100,17 @@ a{
   0%,
   30% {
     background-image: url(/img/BANNER/banner_1.jpg);
+    background-attachment: fixed;
   }
   35%,
   65% {
     background-image: url(/img/BANNER/banner_2.jpg);
+    background-attachment: fixed;
   }
   70%,
   100% {
-    background-image: url(/img/BANNER/banner_3.jpg);
+    background-image: url(/img/BANNER/banner_3_n.gif);
+    background-attachment: fixed;
   }
 }
 
