@@ -65,32 +65,24 @@ a {
   max-width: 100%;
   max-height: 100%;
 
-  animation: banner 15s ease-in-out infinite;
+  animation: banner 16s ease-in-out infinite;
   animation-direction: alternate;
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
 
-  -webkit-animation: banner 15s ease-in-out infinite;
+  -webkit-animation: banner 16s ease-in-out infinite;
   -webkit-animation-direction: alternate;
 
-  -moz-animation: banner 15s ease-in-out infinite;
+  -moz-animation: banner 16s ease-in-out infinite;
   -moz-animation-direction: alternate;
 
-  -o-animation: banner 15s ease-in-out infinite;
+  -o-animation: banner 16s ease-in-out infinite;
   -o-animation-direction: alternate;
 
   background-repeat: no-repeat;
   background-attachment: fixed;
   animation-delay: 1;
-
-  -webkit-animation-delay: 1;
-  -moz-animation-delay: 1;
-  -o-animation-delay: 1;
-
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
 }
 
 @keyframes banner {
