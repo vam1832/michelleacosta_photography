@@ -70,6 +70,7 @@ a {
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
+  animation-delay: 1;
 
   -webkit-animation: banner 16s ease-in-out infinite;
   -webkit-animation-direction: alternate;
@@ -80,9 +81,6 @@ a {
   -o-animation: banner 16s ease-in-out infinite;
   -o-animation-direction: alternate;
 
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  animation-delay: 1;
 }
 
 @keyframes banner {
