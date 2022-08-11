@@ -27,14 +27,14 @@ body {
 
   border-radius: 0 0 0.5rem 0.5rem;
 
-  min-height: 100%;
-  min-width: 100%;
+  min-height: 90%;
+  min-width: 95%;
 }
 
 .navbar a {
-  padding: 0 22px;
+  font-size: 16px;
+  padding: 0 24px;
   text-shadow: 1px -1px 1px rgb(15, 15, 15);
-  font-size: 18px;
   color: rgb(238, 226, 226);
 }
 
@@ -215,6 +215,16 @@ strong {
 
 @media (min-width: 1024px) {
   .navbar {
-    max-width: 90%;
+    max-width: 100px;
+  }
+
+  .card {
+    min-width: 350px;
+  }
+}
+
+@media (min-width: 1920px) {
+  .navbar a{
+    font-size: 22px;
   }
 }
