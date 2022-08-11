@@ -68,7 +68,7 @@ a {
   animation: banner 15s ease-out infinite;
   animation-direction: alternate;
   background-size: cover;
-  background-position: center center; 
+  background-position: center; 
   background-repeat: no-repeat;
 
   -webkit-animation: banner 15s ease-out infinite;
