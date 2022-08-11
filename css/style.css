@@ -19,7 +19,6 @@ body {
   background: rgb(240, 239, 235);
   min-height: 100%;
   text-rendering: optimizeLegibility;
-  overflow-x: hidden ! important;
 }
 
 .navbar {
@@ -88,9 +87,9 @@ a {
   -moz-animation-delay: 1;
   -o-animation-delay: 1;
 
-  -o-background-size: cover;
-  -moz-background-size: cover;
   -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
 }
 
 @keyframes banner {
@@ -281,6 +280,10 @@ a {
 }
 
 @media (min-width: 1024px) {
+  .body {
+    overflow-x: hidden ! important;
+  }
+
   .navbar {
     max-width: 100px;
   }
