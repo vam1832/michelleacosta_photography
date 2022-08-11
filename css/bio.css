@@ -224,7 +224,7 @@ strong {
 }
 
 @media (min-width: 1920px) {
-  .navbar a{
+  .navbar a {
     font-size: 22px;
   }
 }
