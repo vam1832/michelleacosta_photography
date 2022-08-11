@@ -64,19 +64,19 @@ a {
   /* max-width: fit-content;
   max-height: fit-content; */
 
-  animation: banner 15s ease-out infinite;
+  animation: banner 15s ease-in-out infinite;
   animation-direction: alternate;
   background-size: cover;
   background-position: center; 
   background-repeat: no-repeat;
 
-  -webkit-animation: banner 15s ease-out infinite;
+  -webkit-animation: banner 15s ease-in-out infinite;
   -webkit-animation-direction: alternate;
 
-  -moz-animation: banner 15s ease-out infinite;
+  -moz-animation: banner 15s ease-in-out infinite;
   -moz-animation-direction: alternate;
 
-  -o-animation: banner 15s ease-out infinite;
+  -o-animation: banner 15s ease-in-out infinite;
   -o-animation-direction: alternate;
 
   background-repeat: no-repeat;
@@ -280,10 +280,6 @@ a {
 }
 
 @media (min-width: 1024px) {
-  .body {
-    overflow-x: hidden ! important;
-  }
-
   .navbar {
     max-width: 100px;
   }
