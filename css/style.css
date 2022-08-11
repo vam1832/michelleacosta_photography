@@ -80,7 +80,6 @@ a {
 
   -o-animation: banner 16s ease-in-out infinite;
   -o-animation-direction: alternate;
-
 }
 
 @keyframes banner {
