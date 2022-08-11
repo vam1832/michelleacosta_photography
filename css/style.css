@@ -95,17 +95,17 @@ a {
 @keyframes banner {
   0%,
   30% {
-    background-image: url(../img/BANNER/banner_1-min.jpg);
+    background-image: url(../img/BANNER/banner_1.jpg);
     background-attachment: fixed;
   }
   35%,
   65% {
-    background-image: url(../img/BANNER/banner_2-min.jpg);
+    background-image: url(../img/BANNER/banner_2.jpg);
     background-attachment: fixed;
   }
   70%,
   100% {
-    background-image: url(../img/BANNER/banner_3-min.jpg);
+    background-image: url(../img/BANNER/banner_3.jpg);
     background-attachment: fixed;
   }
 }
