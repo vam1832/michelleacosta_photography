@@ -69,7 +69,6 @@ a {
   animation-direction: alternate;
   background-size: cover;
   background-position: center;
-  background-repeat: no-repeat;
   animation-delay: 1;
 
   -webkit-animation: banner 16s ease-in-out infinite;
@@ -285,3 +284,5 @@ a {
     font-size: 22px;
   }
 }
+
+
